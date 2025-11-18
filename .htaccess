@@ -1,0 +1,5 @@
+# Configuración para redireccionar las peticiones
+RewriteEngine On
+
+# Rediccionar todas las peticiones hacia public incluso si es una carpeta
+RewriteRule (.*) public/$1 [L,QSA]
