@@ -265,7 +265,7 @@ $_SESSION['user'] = [
 3. **Sesión**: Se crea sesión con datos del usuario
 4. **Redirección**: Según nivel de acceso (admin → `/admin`, usuario → `/`)
 
-### Controlador de Login (`controllers/session/save.php`)
+### Controlador de Login (`controllers/sessionController.php`)
 
 **Proceso**:
 1. Validación de datos de entrada
